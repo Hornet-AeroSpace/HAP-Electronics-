@@ -5420,6 +5420,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "Value: 10kohm "
+		(at 94.9 42.4 0)
+		(layer "F.SilkS")
+		(uuid "a2f01556-1096-49b2-b749-f414f0a105a5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.125)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "drain\n"
 		(at 107.4 26.9 180)
 		(layer "F.SilkS")
@@ -5470,6 +5482,32 @@
 				(bold yes)
 			)
 			(justify left bottom)
+		)
+	)
+	(gr_text "Property of Hornet Aerospace & Propulsion \n\nRSO of California State University, Sacramento \n& College of Engineering and Computer Science \n\ncirca 2025 "
+		(at 119.8 101 270)
+		(layer "B.SilkS")
+		(uuid "5c6c8f8d-8397-4448-899a-31bc93a492f4")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "Sensor Index: \n\nICM 20948 Adafruit Breakout : 9DOF IMU \nBMP 390   Adafruit Breakout : Barometric Pressure Sensor accurate within =>1m   \nADXL 375  Adafruit Breakout : 3DOF accelerometer, measures up to 200 G's\n\n\n"
+		(at 87.1 98.9 270)
+		(layer "B.SilkS")
+		(uuid "af4c8ae6-398f-4169-b08e-ec25453a7b49")
+		(effects
+			(font
+				(size 1.1 1.1)
+				(thickness 0.275)
+				(bold yes)
+			)
+			(justify left bottom mirror)
 		)
 	)
 	(segment
